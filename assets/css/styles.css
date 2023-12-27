@@ -1,0 +1,110 @@
+.logo {
+    width:100%
+}
+
+.cta-section {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.cta-content {
+    padding-right: 15px;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    font-size: 1.25rem;
+}
+
+body {
+    background-color: #f8f9fa;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .login-logo {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  .login-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .login-quotes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .register-form {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .register-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .custom-file-label::after {
+    content: 'Pilih file';
+  }
+
+  .daftar-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .daftar-logo {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  .daftar-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .daftar-massages {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 70px;
+    height: 100vh;
+  }

@@ -1,0 +1,10 @@
+Options -Multiviews
+
+RewriteEngine On
+
+# Exclude existing files and directories from rewrite
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite to index.php, passing the requested URL as a parameter
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]

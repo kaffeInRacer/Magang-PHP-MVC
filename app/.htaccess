@@ -1,0 +1,4 @@
+# Jika tidak ada file index dalam folder
+# Forbidden access folder ini
+
+Options -Indexes
